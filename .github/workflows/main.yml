@@ -1,0 +1,18 @@
+cd Tom123
+mkdir linux_exam
+
+cd linux_exam
+echo "hello" > demo1.txt
+
+git add demo1.txt
+
+git commit -m "Add demo1.txt"
+
+
+git push origin main
+
+echo "More text" >> demo1.txt
+git add demo1.txt
+git commit -m "Update demo1.txt"
+
+git log
